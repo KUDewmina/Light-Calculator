@@ -8,8 +8,8 @@ root.title("Calculator")
 root.geometry('343x575')
 root.resizable(False,False)
 
-script_directory = os.path.dirname(__file__) #Path to File
-btncut_path = os.path.join(script_directory+ "\cut.png") #Path to Cut Image
+script_directory = os.path.dirname(__file__) 
+btncut_path = os.path.join(script_directory+ "\cut.png") 
 
 frame1 = ctk.CTkFrame(root, width=343 ,height=575 ,corner_radius=20 ,fg_color="#E1E6FB" )
 frame1.pack(padx=1 ,pady=1)
